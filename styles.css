@@ -362,8 +362,7 @@ nav ul {
   background: #C4C4C4;
   padding: 50px 20px;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  height: 60dvh
 }
 
 .pricing-cards {
