@@ -367,10 +367,15 @@ nav ul {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!Lars !!!!!!!!!!!!!!!!!! */
 /* Pricing Section */
 .pricing {
-  background: #c4c4c4;
-  padding: 50px 20px;
+  background: #1b879a;
+  padding: 4rem 2rem;
   text-align: center;
-  height: 60dvh
+  color: white;
+}
+
+.pricing h2 {
+  font-size: 40px;
+  margin-bottom: 2rem;
 }
 
 .pricing-cards {
@@ -379,64 +384,133 @@ nav ul {
   gap: 30px;
   margin-top: 30px;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .price-card {
   width: 100%;
-  max-width: 291px;
+  max-width: 300px;
   min-width: 280px;
-  background: #ffffff;
-  padding: 20px;
+  background: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.price-card:hover {
+  transform: translateY(-10px);
 }
 
 .price-card h3 {
-  font-size: clamp(36px, 5vw, 48px);
-  margin: 30px 0;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  color: #1b879a;
+}
+
+.price-card .price {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  color: #1b879a;
+}
+
+.price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.price-card ul li {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.price-card ul li::before {
+  content: "✓";
+  color: #1b879a;
+  position: absolute;
+  left: 0;
 }
 
 .price-card button {
-  background: #ebebeb;
+  background: #1b879a;
+  color: white;
   border: none;
-  padding: 15px 30px;
-  margin-top: 30px;
+  padding: 0.75rem 2rem;
+  margin-top: 1.5rem;
   width: 100%;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.price-card button:hover {
+  background: rgb(57, 57, 57);
 }
 
 /* Footer */
 footer {
-  background: #ededed;
-  padding: 50px 20px;
+  background: bisque;
+  padding: 4rem 2rem;
   text-align: center;
 }
 
+footer h2 {
+  color: #1b879a;
+  margin-bottom: 2rem;
+}
+
 .footer-links {
-  margin: 20px 0;
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
 .footer-links a {
-  color: #000000;
+  color: #333;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #1b879a;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .social-icon {
-  width: 70px;
-  height: 70px;
-  background: #c4c4c4;
+  width: 45px;
+  height: 45px;
+  background: #1b879a;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000000;
+  color: white;
   text-decoration: none;
   border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background: rgb(57, 57, 57);
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #1b879a;
+  color: #333;
 }
