@@ -355,3 +355,79 @@ nav ul {
   height: 8rem;
   margin: 1rem;
 }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!Lars !!!!!!!!!!!!!!!!!! */
+/* Pricing Section */
+.pricing {
+  background: #C4C4C4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  width: 100%;
+  max-width: 291px;
+  min-width: 280px;
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+.price-card h3 {
+  font-size: clamp(36px, 5vw, 48px);
+  margin: 30px 0;
+}
+
+.price-card button {
+  background: #EBEBEB;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background: #EDEDED;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 70px;
+  height: 70px;
+  background: #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 50%;
+}
