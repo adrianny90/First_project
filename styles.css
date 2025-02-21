@@ -1,7 +1,7 @@
 .dot1 {
   height: 45px;
   width: 45px;
-  background-color: #d7d5d5;
+  background-color: #1b879a;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 2;
@@ -12,7 +12,7 @@
 .dot2 {
   height: 45px;
   width: 45px;
-  background-color: #d7d5d5;
+  background-color: #1b879a;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 3;
@@ -23,7 +23,7 @@
 .dot3 {
   height: 45px;
   width: 45px;
-  background-color: #d7d5d5;
+  background-color: #1b879a;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 4;
@@ -42,7 +42,7 @@
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -53,7 +53,7 @@
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -65,7 +65,7 @@
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -92,24 +92,26 @@
   margin: 0;
 }
 .video {
-  background-color: #434343;
+  background-color: #1b879a;
+  padding: 30px;
 }
-.feature,
-.body {
-  background-color: #999;
+.feature {
+  background-color: bisque;
 }
 .USP {
-  background-color: rgb(206, 206, 206);
+  background-color: #1b879a;
 }
 .video,
 .feature,
 .USP {
-  height: 60dvh;
+  height: fit-content;
 }
 .body {
   margin: 0;
 }
-
+#headwhite {
+  color: white;
+}
 .divusp {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -120,7 +122,7 @@
 .dot4 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 3;
@@ -131,7 +133,7 @@
 .dot5 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 4;
@@ -142,7 +144,7 @@
 .dot6 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 5;
@@ -154,40 +156,43 @@
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
   text-align: center;
+  color: white;
 }
 .p5 {
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 2;
   text-align: center;
+  color: white;
 }
 
 .p6 {
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 2;
   text-align: center;
+  color: white;
 }
 .dot7 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 3;
@@ -198,7 +203,7 @@
 .dot8 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 4;
@@ -209,7 +214,7 @@
 .dot9 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 5;
@@ -221,35 +226,38 @@
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 4;
   text-align: center;
+  color: white;
 }
 .p8 {
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 4;
   text-align: center;
+  color: white;
 }
 
 .p9 {
   margin: 10px;
   padding: 5px;
   border: 0px solid #999;
-  font-size: 11px;
+  font-size: 13px;
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 4;
   grid-row-end: 4;
   text-align: center;
+  color: white;
 }
 /* ======= */
 body {
@@ -359,7 +367,7 @@ nav ul {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!Lars !!!!!!!!!!!!!!!!!! */
 /* Pricing Section */
 .pricing {
-  background: #C4C4C4;
+  background: #c4c4c4;
   padding: 50px 20px;
   text-align: center;
   height: 60dvh
@@ -377,7 +385,7 @@ nav ul {
   width: 100%;
   max-width: 291px;
   min-width: 280px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 20px;
 }
 
@@ -387,7 +395,7 @@ nav ul {
 }
 
 .price-card button {
-  background: #EBEBEB;
+  background: #ebebeb;
   border: none;
   padding: 15px 30px;
   margin-top: 30px;
@@ -396,7 +404,7 @@ nav ul {
 
 /* Footer */
 footer {
-  background: #EDEDED;
+  background: #ededed;
   padding: 50px 20px;
   text-align: center;
 }
@@ -424,7 +432,7 @@ footer {
 .social-icon {
   width: 70px;
   height: 70px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   display: flex;
   align-items: center;
   justify-content: center;
