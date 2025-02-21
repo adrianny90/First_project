@@ -1,7 +1,7 @@
 .dot1 {
   height: 45px;
   width: 45px;
-  background-color: #d7d5d5;
+  background-color: #1b879a;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 2;
@@ -12,7 +12,7 @@
 .dot2 {
   height: 45px;
   width: 45px;
-  background-color: #d7d5d5;
+  background-color: #1b879a;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 3;
@@ -23,7 +23,7 @@
 .dot3 {
   height: 45px;
   width: 45px;
-  background-color: #d7d5d5;
+  background-color: #1b879a;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 4;
@@ -92,14 +92,13 @@
   margin: 0;
 }
 .video {
-  background-color: #434343;
+  background-color: #1b879a;
 }
-.feature,
-.body {
-  background-color: #999;
+.feature {
+  background-color: bisque;
 }
 .USP {
-  background-color: rgb(206, 206, 206);
+  background-color: #1b879a;
 }
 .video,
 .feature,
@@ -120,7 +119,7 @@
 .dot4 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 3;
@@ -131,7 +130,7 @@
 .dot5 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 4;
@@ -142,7 +141,7 @@
 .dot6 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 5;
@@ -187,7 +186,7 @@
 .dot7 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 3;
@@ -198,7 +197,7 @@
 .dot8 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 4;
@@ -209,7 +208,7 @@
 .dot9 {
   height: 45px;
   width: 45px;
-  background-color: #999;
+  background-color: bisque;
   border-radius: 50%;
   justify-self: center;
   grid-column-start: 5;
@@ -359,7 +358,7 @@ nav ul {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!Lars !!!!!!!!!!!!!!!!!! */
 /* Pricing Section */
 .pricing {
-  background: #C4C4C4;
+  background: #c4c4c4;
   padding: 50px 20px;
   text-align: center;
   width: 100%;
@@ -378,7 +377,7 @@ nav ul {
   width: 100%;
   max-width: 291px;
   min-width: 280px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 20px;
 }
 
@@ -388,7 +387,7 @@ nav ul {
 }
 
 .price-card button {
-  background: #EBEBEB;
+  background: #ebebeb;
   border: none;
   padding: 15px 30px;
   margin-top: 30px;
@@ -397,7 +396,7 @@ nav ul {
 
 /* Footer */
 footer {
-  background: #EDEDED;
+  background: #ededed;
   padding: 50px 20px;
   text-align: center;
 }
@@ -425,7 +424,7 @@ footer {
 .social-icon {
   width: 70px;
   height: 70px;
-  background: #C4C4C4;
+  background: #c4c4c4;
   display: flex;
   align-items: center;
   justify-content: center;
